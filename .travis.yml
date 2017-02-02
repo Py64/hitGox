@@ -5,4 +5,5 @@ go:
   - tip
 
 install:
-  - go get
+  - go get github.com/valyala/fasthttp
+  - go get github.com/gorilla/websocket
