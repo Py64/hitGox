@@ -19,6 +19,7 @@ Import it in your code:
 
 ## Requirements
 - [fasthttp](https://github.com/valyala/fasthttp)
+- [Gorilla WebSocket](https://github.com/gorilla/websocket)
 
 ## Documentation
 - [Contributors](CONTRIBUTORS.md) and Patrons!
