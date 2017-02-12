@@ -4,7 +4,6 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"log"
 
 	just "github.com/toby3d/hitGox/tools"
 )
@@ -28,8 +27,6 @@ func GetServers() ([]Server, error) {
 
 	var obj []Server
 	json.NewDecoder(bytes.NewReader(resp)).Decode(&obj)
-
-	log.Printf("%#v", obj)
 
 	return obj, nil
 }
